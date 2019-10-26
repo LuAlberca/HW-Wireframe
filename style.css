@@ -4,6 +4,7 @@ body{
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
 }
 
 header, nav, section, aside, footer{
@@ -13,6 +14,8 @@ header, nav, section, aside, footer{
 article{
     color: #ebebeb;
     background: #777;
+    margin: 0 10px;
+    padding: 10px;
 }
 
 h1, p{
@@ -22,7 +25,6 @@ h1, p{
 
 section{
     width: 495px;
-    display: inline-block;
     float: left;
 }
 
@@ -31,6 +33,14 @@ section{
 aside{
     margin-left: 15px;
     width: 450px;
-    display: inline-block;
+    height: 200px;
     float: left;
+}
+
+section{
+   
+}
+
+footer{
+    clear: both;
 }
