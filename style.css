@@ -22,4 +22,15 @@ h1, p{
 
 section{
     width: 495px;
+    display: inline-block;
+    float: left;
+}
+
+/* My CSS */
+
+aside{
+    margin-left: 15px;
+    width: 450px;
+    display: inline-block;
+    float: left;
 }
